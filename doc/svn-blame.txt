@@ -1,0 +1,13 @@
+svn-blame  Show the SVN blame annotation for the current file, in a narrow
+window to the left of it.
+
+Usage:
+  To get rid of it, close or delete the annotation buffer.
+
+Bugs:
+  If the source file buffer has unsaved changes, these aren't noticed and the
+  annotations won't align properly. Should either warn or preferably annotate
+  the actual buffer contents rather than the last saved version.
+
+  When annotating the same source file again, it creates a new annotation
+  buffer. It should re-use the existing one if it still exists.
