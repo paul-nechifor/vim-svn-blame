@@ -1,7 +1,3 @@
-# This repository has been moved to [gitlab.com/paul-nechifor/vim-svn-blame](http://gitlab.com/paul-nechifor/vim-svn-blame).
-
-Old readme:
-
 # Vim SVN Blame
 
 This is copied from
